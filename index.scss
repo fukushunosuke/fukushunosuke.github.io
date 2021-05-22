@@ -1,0 +1,144 @@
+header{
+    height: 100px;
+    text-align: right;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    .top{
+            h1{
+            font-size: 60px;
+            float: left;
+            margin-left: 6px;
+            color: white;
+            background-color: cadetblue;
+            margin-top:-12px;
+            }
+        }
+        .header-right{
+            a:link { color: #fdfcfc; }
+            a:visited { color: #fffefe; }
+            a:hover { color: #ff0000; }
+            a:active { color: #ff8000; }
+            li{
+            list-style: none;
+            font-size: 25px;
+            display: inline-block;
+            margin: 50px 20px 5px 20px;
+            padding-left: 40px;
+            }
+        }
+}
+
+.topwrapper{
+    background-size: cover;
+    padding-top: 100px;
+    height: 740px;
+    margin-top: -40px;
+    color: black;
+    background-image: url(./img/IMG_9726_Original.jpeg);
+    .container{
+        margin: 0 auto;
+        width: 750px;
+        text-align: center;
+        .invite{
+            background-color: rgba(233, 206, 149, 0.5);
+            height: 450px;
+            border-radius: 70px;
+            font-weight: 500;
+            h2{
+            font-size: 50px;
+            }
+            p{
+            font-size: 20px;
+            line-height: 10px;
+            }
+            span {
+            font-size: 60px;
+            color: darkmagenta;
+            }
+        }
+        .btn{
+            color: white;
+            display: inline-block;
+            font-size: 20px;
+            a:link { color: #fcfcfd; }
+            a:visited { color: #fcfcfd; }
+            a:hover { color: #ff0000; }
+            a:active { color: #ff8000; }
+            margin-top: 30px;
+            .fa{
+                margin-right: 5px;
+            }
+            .new{
+                background-color: #239b76;
+                padding: 8px;
+                text-decoration: none;
+                border-radius: 10px;
+            }
+            .twitter{
+                background-color: #55acee;
+                padding: 8px;
+                margin-left: 30px;
+                text-decoration: none;
+                border-radius: 10px;
+            }
+            .facebook{
+                background-color: #3b5998;
+                padding: 8px;
+                text-decoration: none;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+.detail{
+    background-color: rgb(218, 233, 185);
+    height: 550px;
+    background-size: cover;
+    text-align: center;
+    margin-top: -40px;
+    h1{
+        font-size: 60px;
+        color: crimson;
+        margin-bottom: 0px;
+    }
+    .topic{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .icon{
+        float: left;
+        width: 25%;
+    }
+    .explain{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    span{
+        color: crimson;
+        font-weight: 700;
+    }
+}
+.below{
+    text-align: center;
+    background-color: rgb(252, 215, 215);
+    margin-top: -30px;
+    height: 230px;
+    h1{
+        font-size: 50px;
+    }
+    .btn-message{
+        background-color: darkorange;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow:0px 5px  dimgrey;
+    }
+    .btn-message:active{
+        box-shadow: none;
+        position: relative;
+        top: 5px;
+    }
+}
