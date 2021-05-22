@@ -1,0 +1,189 @@
+header {
+    height: 100px;
+    text-align: right;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header .top h1 {
+    font-size: 60px;
+    float: left;
+    margin-left: 6px;
+    color: white;
+    background-color: cadetblue;
+    margin-top: -12px;
+}
+
+header .header-right a:link {
+    color: #fdfcfc;
+}
+
+header .header-right a:visited {
+    color: #fffefe;
+}
+
+header .header-right a:hover {
+    color: #ff0000;
+}
+
+header .header-right a:active {
+    color: #ff8000;
+}
+
+header .header-right li {
+    list-style: none;
+    font-size: 25px;
+    display: inline-block;
+    margin: 50px 20px 5px 20px;
+    padding-left: 40px;
+}
+
+.topwrapper {
+    background-size: cover;
+    padding-top: 100px;
+    height: 740px;
+    margin-top: -40px;
+    color: black;
+    background-image: url(./img/IMG_9726_Original.jpeg);
+}
+
+.topwrapper .container {
+    margin: 0 auto;
+    width: 750px;
+    text-align: center;
+}
+
+.topwrapper .container .invite {
+    background-color: rgba(233, 206, 149, 0.5);
+    height: 450px;
+    border-radius: 70px;
+    font-weight: 500;
+}
+
+.topwrapper .container .invite h2 {
+    font-size: 50px;
+}
+
+.topwrapper .container .invite p {
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.topwrapper .container .invite span {
+    font-size: 60px;
+    color: darkmagenta;
+}
+
+.topwrapper .container .btn {
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.topwrapper .container .btn a:link {
+    color: #fcfcfd;
+}
+
+.topwrapper .container .btn a:visited {
+    color: #fcfcfd;
+}
+
+.topwrapper .container .btn a:hover {
+    color: #ff0000;
+}
+
+.topwrapper .container .btn a:active {
+    color: #ff8000;
+}
+
+.topwrapper .container .btn .fa {
+    margin-right: 5px;
+}
+
+.topwrapper .container .btn .new {
+    background-color: #239b76;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.topwrapper .container .btn .twitter {
+    background-color: #55acee;
+    padding: 8px;
+    margin-left: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.topwrapper .container .btn .facebook {
+    background-color: #3b5998;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.detail {
+    background-color: #dae9b9;
+    height: 550px;
+    background-size: cover;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.detail h1 {
+    font-size: 60px;
+    color: crimson;
+    margin-bottom: 0px;
+}
+
+.detail .topic {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.detail .icon {
+    float: left;
+    width: 25%;
+}
+
+.detail .explain {
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.detail span {
+    color: crimson;
+    font-weight: 700;
+}
+
+.below {
+    text-align: center;
+    background-color: #fcd7d7;
+    margin-top: -30px;
+    height: 230px;
+}
+
+.below h1 {
+    font-size: 50px;
+}
+
+.below .btn-message {
+    background-color: darkorange;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px  dimgrey;
+    box-shadow: 0px 5px  dimgrey;
+}
+
+.below .btn-message:active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+/*# sourceMappingURL=fuku.css.map */
